@@ -1,0 +1,62 @@
+body{
+	font-size:14px;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.s_shadow{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index: 100;
+	background-color:rgba(0,0,0,.3);
+}
+#welcome_banner{
+	position:relative;
+	width:100%;
+	height:950px;
+	background:url(/naturally.com/images/nature_background.jpg) no-repeat;
+}
+#emblem{
+	opacity:0;
+	margin:0 auto;
+	position: relative;
+	z-index:120;
+	display:block;
+	width:200px;
+}
+#main_h1{
+	text-align:left;
+	padding-left:10%;
+	padding-top:5%;
+	font-size: 10em;
+	margin:0;
+	text-transform: uppercase;
+	color:#fff;
+	font-weight:100;
+	position: relative;
+	z-index: 120;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+#sub_slogan{
+	text-align:left;
+	position: relative;
+	z-index: 120;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:5em;
+	padding-left:10%;
+	color:#fff;
+	opacity:0;
+	font-weight:100;
+	margin:0;
+}
+#sub_slogan .white_green{
+	text-decoration: none;
+	border-bottom:3px solid #fff;
+	color:#fff;
+}
+#sub_slogan .white_green:visited{
+	color:#fff;
+}
