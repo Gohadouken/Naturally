@@ -4,6 +4,9 @@ body{
 	margin:0;
 	padding:0;
 }
+.clr{
+	clear:both;
+}
 .s_shadow{
 	position:absolute;
 	left:0;
@@ -17,10 +20,9 @@ body{
 	position:relative;
 	width:100%;
 	height:950px;
-	background:url(/images/nature_background.jpg) no-repeat;
+	background:url(/naturally.com/images/nature_background.jpg) no-repeat;
 }
 #emblem{
-	opacity:0;
 	margin:0 auto;
 	position: relative;
 	z-index:120;
@@ -30,7 +32,7 @@ body{
 #main_h1{
 	text-align:left;
 	padding-left:10%;
-	padding-top:5%;
+	padding-top:95px;
 	font-size: 10em;
 	margin:0;
 	text-transform: uppercase;
@@ -59,4 +61,49 @@ body{
 }
 #sub_slogan .white_green:visited{
 	color:#fff;
+}
+#main_explanation{
+	width:100%;
+	text-align:center;
+	margin-top: 270px;
+	opacity:0;
+	position: relative;
+	z-index: 130;
+}
+#main_explanation p{
+	color:#fff;
+	font-family: 'Old Standard TT', serif;
+	font-size:22px;
+}
+#exp_inner{
+	width:300px;
+	margin:0 auto;
+}
+.whiteline{
+	text-align: center;
+	width: 134px;
+	margin: 0 auto;
+	position: relative;
+	float:left;
+}
+.whiteline:before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #fff;
+	height: 2px;
+	width: 100%;
+	margin-top: -2px;
+}
+.leafdiv{
+	width: 32px;
+	height: 32px;
+	background: url(/naturally.com/images/leaf.png) no-repeat center center;
+	margin: 0 auto;
+	position: relative;
+	float:left;
 }
