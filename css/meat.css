@@ -21,6 +21,7 @@ body{
 	width:100%;
 	height:950px;
 	background:url(/naturally.com/images/nature_background.jpg) no-repeat;
+	margin-bottom: 10px;
 }
 #emblem{
 	margin:0 auto;
@@ -74,6 +75,7 @@ body{
 	color:#fff;
 	font-family: 'Old Standard TT', serif;
 	font-size:22px;
+	font-weight:bold;
 }
 #exp_inner{
 	width:300px;
@@ -106,4 +108,43 @@ body{
 	margin: 0 auto;
 	position: relative;
 	float:left;
+}
+#content{
+	width:auto;
+	padding:10px;
+}
+.c_half{
+	padding-left:10px;
+	padding-right:10px;
+	width:50%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+	float:left;
+}
+#main_carousel{
+	width:100%;
+	height:400px;
+	margin:0 auto;
+}
+#main_carousel .fl_c_item{
+  	width: 90%;
+  	height: 400px;
+  	margin-right: 10px;
+  	background: #fff;
+  	overflow: hidden;
+}
+#main_carousel .fl_c_item img{
+	width:100%;
+}
+#maininfo{
+	border-left:3px solid #7dcea0;
+	padding-left:5px;
+	position: relative;
+}
+#maininfo p{
+	font-family: 'Old Standard TT', serif;
+	font-size:20px;
+	text-align:justify;
+	margin:0;
 }

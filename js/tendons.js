@@ -4,4 +4,11 @@ $(document).ready(function(){
 	$('#main_explanation').animate({opacity:'1.0'},4000);
 	// ----------------------------------
 
+	// flickity carousel
+	$('#main_carousel').flickity({
+  		autoPlay: 4000,
+  		wrapAround: true,
+  		pageDots: false,
+	});
+	// ----------------------------------
 });
