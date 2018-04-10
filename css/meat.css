@@ -66,7 +66,7 @@ body{
 #main_explanation{
 	width:100%;
 	text-align:center;
-	margin-top: 270px;
+	margin-top: 345px;
 	opacity:0;
 	position: relative;
 	z-index: 130;
@@ -147,4 +147,70 @@ body{
 	font-size:20px;
 	text-align:justify;
 	margin:0;
+}
+.mild-green{
+	color: #7dcea0;
+}
+.centered{
+	text-align:center;
+}
+#modal_darkening{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.7);
+	z-index: 500;
+	display: none;
+	pointer-events: none;
+}
+#modal_darkening:target{
+	display: block;
+	pointer-events: auto;
+}
+#modal_signup{
+	width: 450px;
+	position: relative;
+	margin: 17% auto;
+	padding: 25px;
+	color:#fff;
+}
+#modal_signup h2{
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+	font-size: 45px;
+	text-align: center;
+	margin-top:0;
+	margin-bottom:10px;
+}
+#modal_signup p{
+	font-family: 'Old Standard TT', serif;
+	font-size:22px;
+}
+#modal_signup .close{
+	background: url(/naturally.com/images/close.png) no-repeat;
+	position: absolute;
+	right: -7px;
+	top: 3px;
+	width: 32px;
+	height:32px;
+	text-decoration: none;
+	opacity:0.8;
+}
+#modal_signup .close:hover{
+	opacity: 1;
+}
+#input_signup{
+	width:100%;
+	height:40px;
+	font-size:30px;
+	padding:5px;
+}
+#input_signup:focus{
+	outline:2px solid #7dcea0;
+}
+.a_submit{
+	color: #7dcea0;
+	cursor:pointer;
 }
