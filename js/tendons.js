@@ -5,7 +5,7 @@ $(document).ready(function(){
 	// ----------------------------------
 
 	// flickity carousel
-	$('#main_carousel').flickity({
+	$('.main_carousel').flickity({
   		autoPlay: 4000,
   		wrapAround: true,
   		pageDots: false,
